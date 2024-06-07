@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shkolo</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'fonts.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'index_style.css' %}">
+</head>
+<body>
+    <header class="index-header">
+        <a href="index.html">
+            SHKOLO
+        </a>
+    </header>
+
+    <div class="main-index-form">
+        <div class="enter-buttons">
+            <ul>
+                <li>Вход</li>
+                <li>Регистрация</li>
+            </ul>
+        </div>
+
+        <form action="POST" class="form-index">
+            <input type="text" placeholder="Имейл или Потребителско име"> <br>
+            <input type="text" placeholder="Парола"> <br>
+
+            <button type="submit" class="enter-button">Вход</button>
+
+            <span class="or-els">
+                <h4 class="text-center">
+                    <span>ИЛИ</span>
+                </h4>
+            </span>
+            
+            <div class="other-options">
+                <a href="https://www.microsoft.com/bg-bg" target="_blank">
+                    <img src="{% static 'images-icons/m-logo-new.png' %}" alt="microsoft">
+                </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="{% static 'images-icons/f-logo-new.png' %}" alt="facebook">
+                </a>
+                <a href="https://www.google.com/" target="_blank">
+                    <img src="{% static 'images-icons/g-logo-new.png' %}" alt="google">
+                </a>
+                <a href="https://www.mon.bg/en/homepage/" target="_blank">
+                    <img src="{% static 'images-icons/mon-log-new.png' %}" alt="mon">
+                </a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+@import url(fonts.css);
+
+body {
+    background-color: #5c97bd;
+    margin: 0;
+}
+
+.index-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.index-header a {
+    text-decoration: none;
+    color: white;
+    font-size: 2.5em;
+    font-family: Kanit, sans-serif;
+}
+
+.main-index-form {
+    width: fit-content;
+    margin: 2.6em auto 0px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.enter-buttons {
+    font-family: "Open Sans", sans-serif;
+}
+
+.enter-buttons ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.enter-buttons ul li {
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 15px;
+    background-color: #5c97bd;
+    font-size: 1.3em;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.enter-buttons ul li:first-child {
+    background-color: #7cabca;
+}
+
+.form-index {
+    text-align: center;
+    padding: 30px;
+    background-color: #7cabca;
+}
+
+.form-index input {
+    border: 1px solid #6ba3c8;
+    height: 38px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.form-index .enter-button {
+    display: block;
+    width: 100%;
+    background-color: #45B6AF;
+    border: 0px;
+    padding: 10px 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.0em;
+}
+
+.or-els {
+    color: white;
+}
+
+.or-els .text-center {
+    border-bottom: 1px solid white;
+}
+
+.or-els .text-center span {
+    background-color: #7cabca;
+    padding: 5px 15px;
+    position: relative;
+    top: 10px;
+    z-index: 1;
+}
+
+img {
+    display: block;
+}
+
+.other-options {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.other-options a {
+    padding: 0.6em 1em;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+}
