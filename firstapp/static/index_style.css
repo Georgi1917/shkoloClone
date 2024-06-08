@@ -46,6 +46,7 @@ body {
     font-size: 1.3em;
     width: 200px;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 .enter-buttons ul li:first-child {
@@ -62,7 +63,7 @@ body {
     border: 1px solid #6ba3c8;
     height: 38px;
     margin-bottom: 12px;
-    width: 100%;
+    width: 98%;
 }
 
 .form-index .enter-button {
@@ -75,6 +76,7 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.0em;
+    cursor: pointer;
 }
 
 .or-els {
@@ -108,4 +110,12 @@ img {
     background-color: #fff;
     border: 1px solid black;
     border-radius: 5px;
+}
+
+.enter-buttons li:hover {
+    background-color: #7cabca;
+}
+
+.form-index .enter-button:hover {
+    background-color: #108680;
 }

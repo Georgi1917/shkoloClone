@@ -18,16 +18,18 @@
     <div class="main-index-form">
         <div class="enter-buttons">
             <ul>
-                <li>Вход</li>
-                <li>Регистрация</li>
+                <li class="login">Вход</li>
+                <li class="register">Регистрация</li>
             </ul>
         </div>
 
         <form action="POST" class="form-index">
-            <input type="text" placeholder="Имейл или Потребителско име"> <br>
-            <input type="text" placeholder="Парола"> <br>
+            <div class="form-proper">
+                <input type="text" placeholder="Имейл или Потребителско име"> <br>
+                <input type="text" placeholder="Парола"> <br>
 
-            <button type="submit" class="enter-button">Вход</button>
+                <button type="submit" class="enter-button">Вход</button>
+            </div>
 
             <span class="or-els">
                 <h4 class="text-center">
@@ -51,5 +53,7 @@
             </div>
         </form>
     </div>
+
+    <script src="{% static 'js-scripts/index-register-script.js' %}"></script>
 </body>
 </html>
