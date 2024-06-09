@@ -119,3 +119,21 @@ img {
 .form-index .enter-button:hover {
     background-color: #108680;
 }
+
+
+.main-span-div {
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+}
+
+.student, .teacher {
+    padding: 1em;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2em;
+}
